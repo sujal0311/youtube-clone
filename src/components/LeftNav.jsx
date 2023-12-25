@@ -14,7 +14,7 @@ const LeftNav = () => {
       case "category":
       case "home":
         setSelectedCategory(name);
-        navigate("/");
+        navigate("/youtube-clone");
         break;
       case "menu":
         return false;
